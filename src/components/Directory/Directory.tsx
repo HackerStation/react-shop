@@ -6,7 +6,7 @@ import styles from './Directory.module.scss';
 import initialData from './directory.data.json';
 
 const Directory = () => {
-  const [sections, setSections] = useState(initialData);
+  const [sections, _] = useState(initialData);
 
   return (
     <div className={styles.directoryMenu}>
